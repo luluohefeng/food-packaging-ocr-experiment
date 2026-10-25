@@ -1,0 +1,13 @@
+# 食品包装 OCR 最小验证实验依赖
+# 环境要求：Python 3.9 - 3.12（本项目在 Python 3.11.7 / Windows 上验证通过）
+#
+# 安装方式（建议使用虚拟环境，详见 README.md）：
+#   python -m venv .venv
+#   .venv\Scripts\python -m pip install -r requirements.txt
+#
+# 国内网络提示：如果直接下载较慢，可加清华镜像源：
+#   .venv\Scripts\python -m pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+Pillow>=10.0.0

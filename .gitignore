@@ -1,0 +1,21 @@
+# Python 运行与缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境（体积大，不进仓库）
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 程序运行生成的 JSON 输出
+output/
+
+# 测试图片：个人拍摄的食品包装照片属于私有资料，不公开上传
+samples/*
+!samples/.gitkeep
+
+# 系统杂项文件
+.DS_Store
+Thumbs.db
